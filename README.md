@@ -29,11 +29,12 @@ The frontend is developed using **HTML, CSS, Bootstrap, and JavaScript**, provid
 ```bash
 git clone https://github.com/MgKhai/pizza-order-management-system.git
 cd pizza-order-website
-
+```
 ### Step 2: Install dependencies
 ```bash
 composer install
 npm install
+```
 
 ### Step 3: Configure the .env file
 Copy .env.example to .env and update the database information:
@@ -41,18 +42,20 @@ Copy .env.example to .env and update the database information:
 DB_DATABASE=your_database_name
 DB_USERNAME=your_database_user
 DB_PASSWORD=your_database_password
+```
 
 ### Step 4: Generate key and migrate tables
 ```bash
 php artisan key:generate
 php artisan migrate --seed
+```
 
 ### Step 5: Run the project
 ```bash
 php artisan serve
+```
 
 ### Default Admin Login
-```bash
-email    : superadmin@gmail.com
-password : admin123456
+- email    : superadmin@gmail.com
+- password : admin123456
 
